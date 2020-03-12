@@ -83,10 +83,12 @@ ol li {
 }
 
 .wrapper {
-    height: 100%;
-    width: 1000px;
+    min-height: 100%;
+    width: 1100px;
     margin: 0px auto;
     display: grid;
+    background-color: #fefefe;
+    padding: 3%;
     grid-template-columns: repeat(auto-fit, minmax(1fr));
 }
 
