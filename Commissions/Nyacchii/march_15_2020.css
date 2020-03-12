@@ -27,6 +27,7 @@ h4 {
     font-family: 'Anton', sans-serif;
     letter-spacing: 2px;
     text-transform: uppercase;
+    color: #744e4d;
 
 }
 
@@ -34,14 +35,27 @@ p {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.3em;
     line-height: 40px;
-    color: #2b2b2b;
+    color: #232323;
+    padding: 2%;
 }
+
+.summary {
+    margin-top: 2%;
+    font-size: 1.0em;
+}
+
+div,
+ul,
+ul li {}
 
 a {
     text-decoration: none;
     list-style-type: none;
     list-style: none;
     display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    color: #F98B7A;
 }
 
 h3 a {
@@ -54,15 +68,47 @@ ol li {
     list-style-type: none;
     list-style: none;
     display: block;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+[class*='comission-'],
+.note {
+    margin-top: 10%;
+}
+
+.requestList,
+.contact {
+    margin-top: 5%;
 }
 
 .wrapper {
     height: 100%;
-    width: 1200px;
+    width: 1000px;
     margin: 0px auto;
     display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(1fr));
 }
 
-.accent {
+.date h1 {
+    color: #F98B7A;
+}
+
+.accent,
+.numbered {
     color: #FF593E;
+}
+
+.contact h4 a,
+.contact h4 {
+    font-size: 1.1em;
+    color: #2b2b2b;
+}
+
+.footer {
+    text-align: center;
+    padding: 2%;
+    font-size: 0.7em;
+    color: #232323;
+    font-weight: bold;
 }
