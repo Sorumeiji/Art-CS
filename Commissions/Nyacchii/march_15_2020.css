@@ -5,6 +5,8 @@ html {
     width: 100%;
     font-size: 16px;
     overflow-x: hidden;
+    margin: 0;
+    padding: 0;
 }
 
 *,
@@ -28,7 +30,6 @@ h4 {
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #744e4d;
-
 }
 
 p {
@@ -36,17 +37,14 @@ p {
     font-size: 1.3em;
     line-height: 40px;
     color: #232323;
-    padding: 2%;
 }
 
 .summary {
-    margin-top: 2%;
+    margin-top: 5%;
     font-size: 1.0em;
 }
 
-div,
-ul,
-ul li {}
+       
 
 a {
     text-decoration: none;
@@ -61,7 +59,10 @@ a {
 h3 a {
     display: inline;
 }
-
+ul{
+    padding: 0;
+    margin-top: 2%;
+}
 ul li,
 ol li {
     text-decoration: none;
@@ -74,7 +75,15 @@ ol li {
 
 [class*='comission-'],
 .note {
-    margin-top: 10%;
+    margin-top: 15%;
+}
+
+[class*='comission-'] p {
+    padding: 1.5% 5% 1.5% 0;
+}
+
+[class*='comission-'] h2, .requestList h2{
+    font-size: 1.3em;
 }
 
 .requestList,
@@ -88,12 +97,15 @@ ol li {
     margin: 0px auto;
     display: grid;
     background-color: #fefefe;
-    padding: 3%;
-    grid-template-columns: repeat(auto-fit, minmax(1fr));
+    padding: 5%;
+    margin: 0px auto;
+    grid-template-columns: repeat(auto-fit, minmax(1fr,1fr));
 }
 
 .date h1 {
     color: #F98B7A;
+    text-align: center;
+    font-size: 1.3em;
 }
 
 .accent,
