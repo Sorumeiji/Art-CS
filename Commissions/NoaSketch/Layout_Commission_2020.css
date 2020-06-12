@@ -23,8 +23,8 @@ html {
 body {
   height: 100%;
   width: 100%;
-  padding: 2%;
-  background: url(../textures/dot-grid/dot-grid/dot-grid.png) repeat;
+  padding-top: 2%;
+  background: #2b2b2b;
 }
 
 h1,
@@ -61,13 +61,13 @@ a {
   list-style: none;
   display: block;
   font-family: "Raleway", sans-serif;
-  font-size: 1.2em;
-  color: #f98b7a;
+  font-size: 1.3em;
+  color: #C4996D;
   margin-top: 1%;
 }
 
 a:hover {
-  color: #ff593e;
+  color: #2B2B2B;
 }
 
 h3 a {
@@ -147,18 +147,12 @@ ol li {
 
 .wrapper {
   min-height: 100%;
-  width: 1100px;
+  width: 1200px;
   margin: 0px auto;
   display: grid;
-  border-radius: 5px;
-  background-color: #f8f8f8;
+  background-color: #EDEDEC;
+  margin: 0px auto;
   grid-template-columns: repeat(auto-fit, minmax(1fr, 1fr));
-}
-
-.border {
-  border-radius: 5px;
-  margin: 1%;
-  padding: 1%;
 }
 
 .content {
@@ -168,16 +162,11 @@ ol li {
 
 .date {
   text-align: center;
-  border-radius: 5px;
-  padding: 15%;
+  padding: 5%;
   width: 100%;
   display: flex;
   flex-direction: column;
-  background: url(/Commissions/Nyacchii/Noa_Mockup.png) no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: #D7D3C4;
 
   align-items: center;
 
@@ -185,8 +174,8 @@ ol li {
 }
 
 .date h1 {
-  font-size: 2.1em;
-  color: #ffffff;
+  font-size: 2.5em;
+  color: #363636;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -200,7 +189,7 @@ ol li {
 
 .accent,
 .numbered {
-  color: #ff593e;
+  color: #C4996D;
 }
 
 .footer {
@@ -217,6 +206,6 @@ ol li {
 }
 
 ::selection {
-  color: #f98b7a;
+  color: #D7D3C4;
   background: #2b2b2b;
 }
