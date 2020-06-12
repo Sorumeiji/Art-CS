@@ -174,7 +174,7 @@ ol li {
   width: 100%;
   display: flex;
   flex-direction: column;
-  background: url(/Commissions/Nyacchii/Noa_Mockup.png) no-repeat center center;
+  background: url(../Nyacchii/Noa_Mockup.png) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
