@@ -8,7 +8,7 @@ html {
   box-sizing: border-box;
   height: 100%;
   width: 100%;
-  font-size: 16px;
+  font-size: 100%;
   overflow-x: hidden;
   margin: 0;
   padding: 0;
@@ -31,8 +31,8 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "Orbitron", sans-serif;
-  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
   letter-spacing: 2px;
   text-transform: capitalize;
   color: #2b2b2b;
@@ -146,14 +146,11 @@ ol li {
 }
 
 .wrapper {
-  min-height: 100%;
-  width: 1100px;
+  max-width: 1100px;
   margin: 0px auto;
   display: grid;
   border-radius: 5px;
-  background-color: #f8f8f8;
   grid-template-columns: repeat(auto-fit, minmax(1fr, 1fr));
-  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.02), 0 6.7px 5.3px rgba(0, 0, 0, 0.028), 0 12.5px 10px rgba(0, 0, 0, 0.035), 0 22.3px 17.9px rgba(0, 0, 0, 0.042), 0 41.8px 33.4px rgba(0, 0, 0, 0.05), 0 100px 80px rgba(0, 0, 0, 0.07);
 }
 
 .border {
@@ -164,7 +161,11 @@ ol li {
 
 .content {
   margin: 0px auto;
+  height: 100%;
+  background-color: #f8f8f8;
   padding: 5% 10% 5% 10%;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.02), 0 6.7px 5.3px rgba(0, 0, 0, 0.028), 0 12.5px 10px rgba(0, 0, 0, 0.035), 0 22.3px 17.9px rgba(0, 0, 0, 0.042), 0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    0 100px 80px rgba(0, 0, 0, 0.07);
 }
 
 .date {
@@ -179,9 +180,7 @@ ol li {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
   align-items: center;
-
   position: relative;
 }
 
